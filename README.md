@@ -28,22 +28,22 @@ This project is a **Conversational AI chatbot** built using **LangChain**, capab
 ## 🧑‍💻 Installation
 
 **1. Clone the repo**
-git clone https://github.com/Kuntalsvyas/LangChain-Chat-with-search.git
-cd LangChain-Chat-with-search
+- git clone https://github.com/Kuntalsvyas/LangChain-Chat-with-search.git
+- cd LangChain-Chat-with-search
 
 **2. Create and activate a virtual environment**
-python -m venv venv
-source venv/bin/activate  # On Windows use: venv\Scripts\activate
+- python -m venv venv
+- source venv/bin/activate  # On Windows use: venv\Scripts\activate
 
 **3. Install dependencies**
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
-# 4. Create a `.env` file and add your API keys
-Example:
+**4. Create a `.env` file and add your API keys**
+-Example:
 GROQ_API_KEY=your_groq_api_key
 
 **5. Run the Streamlit app**
-streamlit run app.py
+- streamlit run app.py
 
 ---
 
