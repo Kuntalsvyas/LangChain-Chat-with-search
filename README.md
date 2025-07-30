@@ -2,6 +2,8 @@
 
 This project is a **Conversational AI chatbot** built using **LangChain**, capable of answering queries with real-time search powered by Wikipedia and ArXiv tools. It integrates LLMs to provide informative, contextual responses and is deployed through a Streamlit interface.
 
+---
+
 ## 🚀 Features
 
 - 🔍 Real-time search using **Wikipedia** and **ArXiv**
@@ -9,6 +11,8 @@ This project is a **Conversational AI chatbot** built using **LangChain**, capab
 - 🤖 LLM-based reasoning with support for **Groq** LLMs
 - 💬 Streamlit interface for easy interaction
 - 🛠️ Modular and extendable codebase
+
+---
 
 ## 🧰 Tech Stack
 
@@ -19,25 +23,29 @@ This project is a **Conversational AI chatbot** built using **LangChain**, capab
 - **Groq LLM (ChatGroq)**
 - `.env` based secret handling
 
+---
+
 ## 🧑‍💻 Installation
 
-# 1. Clone the repo
+**1. Clone the repo**
 git clone https://github.com/Kuntalsvyas/LangChain-Chat-with-search.git
 cd LangChain-Chat-with-search
 
-# 2. Create and activate a virtual environment
+**2. Create and activate a virtual environment**
 python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
 
-# 3. Install dependencies
+**3. Install dependencies**
 pip install -r requirements.txt
 
 # 4. Create a `.env` file and add your API keys
-# Example:
+Example:
 GROQ_API_KEY=your_groq_api_key
 
-# 5. Run the Streamlit app
+**5. Run the Streamlit app**
 streamlit run app.py
+
+---
 
 # 🧪 How It Works
 - User Input → Enters a query into the chat UI
@@ -50,6 +58,8 @@ streamlit run app.py
  - Option to upload PDFs for custom QA
  - Memory persistence for long conversations
  - Deploy to Hugging Face / Render
+
+---
 
 # 🙌 Author
 Made by Kuntal Vyas
