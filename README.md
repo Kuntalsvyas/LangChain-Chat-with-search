@@ -40,7 +40,8 @@ GROQ_API_KEY=your_groq_api_key
 streamlit run app.py
 
 # 🧪 How It Works
-User Input → Enters a query into the chat UI
-LangChain Agent → Determines which tool to invoke (Wikipedia, ArXiv, or LLM)
-Tool Execution → Fetches search results and passes them to the LLM
-LLM Response → Returns structured, contextual answers
+- User Input → Enters a query into the chat UI
+- LangChain Agent → Determines which tool to invoke (Wikipedia, ArXiv, or LLM)
+- Tool Execution → Fetches search results and passes them to the LLM
+- LLM Response → Returns structured, contextual answers
+
