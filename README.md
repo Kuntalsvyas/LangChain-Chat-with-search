@@ -39,8 +39,7 @@ This project is a **Conversational AI chatbot** built using **LangChain**, capab
 - pip install -r requirements.txt
 
 **4. Create a `.env` file and add your API keys**
--Example:
-GROQ_API_KEY=your_groq_api_key
+- Example :- GROQ_API_KEY=your_groq_api_key
 
 **5. Run the Streamlit app**
 - streamlit run app.py
