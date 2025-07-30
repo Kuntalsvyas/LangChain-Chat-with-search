@@ -45,3 +45,12 @@ streamlit run app.py
 - Tool Execution → Fetches search results and passes them to the LLM
 - LLM Response → Returns structured, contextual answers
 
+# 📌 To-Do / Future Enhancements
+ - Add support for DuckDuckGo or Google Search
+ - Option to upload PDFs for custom QA
+ - Memory persistence for long conversations
+ - Deploy to Hugging Face / Render
+
+# 🙌 Author
+Made by Kuntal Vyas
+If you like it, feel free to ⭐ the repo or contribute!
